@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="sg.edu.tp.cookphone.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/nav_ingredients"
+        android:name="sg.edu.tp.cookphone.fragment_ingredients"
+        android:label="@string/title_ingredient"
+        tools:layout="@layout/fragment_ingredients" />
+    <fragment
+        android:id="@+id/nav_explore"
+        android:name="sg.edu.tp.cookphone.fragment_explore"
+        android:label="@string/title_explore"
+        tools:layout="@layout/fragment_explore" />
+    <fragment
+        android:id="@+id/nav_calendar"
+        android:name="sg.edu.tp.cookphone.fragment_calendar"
+        android:label="@string/title_calendar"
+        tools:layout="@layout/fragment_calendar" />
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="sg.edu.tp.cookphone.fragment_settings"
+        android:label="@string/title_settings"
+        tools:layout="@layout/fragment_settings" />
+
+</navigation>
